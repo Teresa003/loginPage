@@ -1,0 +1,35 @@
+body{
+  background-color: rgba(47, 79, 79, 0.61);
+}
+.form{
+  border: 2px solid darkslategrey;
+  background-color: rgba(47, 79, 79, 0.747);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 35vw;
+  height: 40vh;
+  padding: 20px;
+  margin: 20vh auto;
+  color: aliceblue;
+}
+input{
+  padding: 10px;
+  margin: 10px;
+}
+h1{
+  text-align: center;
+}
+button{
+  background-color: white;
+  color: darkslategray;
+  height: 50px;
+  width: 200px;
+  align-self: center;
+  font-size: 18px;
+  border-radius: 8px;
+}
+#validation-messages{
+  text-align: center;
+  margin: 10px;
+}
